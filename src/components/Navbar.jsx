@@ -1,17 +1,18 @@
-import '../style.css';
-
-const Navbar = () =>{
+import {  Link } from "react-router-dom";
+import About from "./About";
+import "../style.css";
+const Navbar = () => {
   return (
     <nav className="navbar">
       <div>
-        <a href="/">Home</a>
-        <a href="/About">About</a>
-        <a href="/skills">Skills</a>
-        <a href="/contact">Contact</a>
-        <a href="/projects">Projects</a>
+        <Link to="/">Home</Link>
+        <Link to={About}>About</Link>
+        <Link to="/skills">Skills</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/projects">Projects</Link>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default Navbar;

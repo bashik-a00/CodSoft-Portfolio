@@ -1,17 +1,39 @@
 import React from "react";
-import '../style.css';
+import { Link } from "react-router-dom";
+import Contact from "./Contact";
+import pdf from "../assets/Resume.pdf";
+import "../style.css";
 
 const About = () => {
-  return(
-  <section id="about">
-    <div className="container">
-      <div className="">
-        <img src="../images/profile.JPEG" alt="" />
-        <h1>Hello, I&apos;m Bashik A!</h1>
-        <p>Full Stack Developer</p>
+  return (
+    <section id="about">
+      <div className="container">
+        <div className="">
+          <img src="../images/profile.JPEG" alt="profile-img" className="my-img"/>
+          <h1>Hello, I&apos;m Bashik A!</h1>
+          <p className="discription">Full Stack Web Developer</p>
+          <div className="download-btn-section">
+            <div className="downloadBtn">
+              <button className="abt-section-btn">
+                <Link
+                  to={pdf}
+                  download={pdf}
+                  target="_blank"
+                  className="cv-link"
+                >
+                  DOWNLOAD CV
+                </Link>
+              </button>
+            </div>
+            <div className="contact-btn-section">
+              <button className="abt-section-btn">
+                <Link to={Contact} className="cm-link">CONTACT ME</Link>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
   );
-}
+};
 export default About;
