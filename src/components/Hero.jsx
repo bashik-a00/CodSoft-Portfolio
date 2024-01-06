@@ -4,12 +4,16 @@ import Contact from "./Contact";
 import pdf from "../assets/Resume.pdf";
 import "../style.css";
 
-const About = () => {
+const Hero = () => {
   return (
     <section id="about">
       <div className="container">
         <div className="">
-          <img src="../images/profile.JPEG" alt="profile-img" className="my-img"/>
+          <img
+            src="../images/profile.JPEG"
+            alt="profile-img"
+            className="my-img"
+          />
           <h1>Hello, I&apos;m Bashik A!</h1>
           <p className="discription">Full Stack Web Developer</p>
           <div className="download-btn-section">
@@ -27,7 +31,9 @@ const About = () => {
             </div>
             <div className="contact-btn-section">
               <button className="abt-section-btn">
-                <Link to={Contact} className="cm-link">CONTACT ME</Link>
+                <Link to={Contact} className="cm-link">
+                  CONTACT ME
+                </Link>
               </button>
             </div>
           </div>
@@ -36,4 +42,4 @@ const About = () => {
     </section>
   );
 };
-export default About;
+export default Hero;
