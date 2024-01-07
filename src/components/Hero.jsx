@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Contact from "./Contact";
 import pdf from "../assets/Resume.pdf";
 import "../style.css";
 
 const Hero = () => {
   return (
-    <section id="about">
+    <section id="hero">
       <div className="container">
         <div className="">
           <img
@@ -31,7 +30,7 @@ const Hero = () => {
             </div>
             <div className="contact-btn-section">
               <button className="abt-section-btn">
-                <Link to={Contact} className="cm-link">
+                <Link to='/contact' className="cm-link">
                   CONTACT ME
                 </Link>
               </button>
