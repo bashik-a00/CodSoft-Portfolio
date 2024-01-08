@@ -28,6 +28,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;
+  margin: 0;
 }
 
 .nav-items {
@@ -35,7 +36,9 @@ body {
   margin-left: 20px;
 }
 .nav-link {
-  color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 5px;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
@@ -177,6 +180,32 @@ h1,
 }
 
 /* About */
+#about {
+  padding: 10% 5% 5% 5%;
+  text-align: center;
+}
+
+.text-photo {
+  display: flex;
+  align-items: center;
+}
+
+.aboutMe {
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+
+.about-me-photo {
+  width: 175px;
+  height: 380px;
+  margin-right: 10px;
+}
+.text-area {
+  flex: 1;
+}
+.aboutMeText {
+  font-size: 25px;
+}
 
 /* Contact */
 #contact {
@@ -334,15 +363,30 @@ button:hover {
     margin-bottom: 4%;
   }
 
+  /* For About */
+
+  .aboutMe {
+    padding-top: 10%;
+    font-size: 45px;
+  }
+  .text-photo {
+    display: block;
+  }
+  .aboutMeText {
+    font-size: 19px;
+  }
   /* For Contact */
 
   #contact {
-    padding: 0% 5% 20% 5%;
-    height: 60vh;
+    padding: 30% 5% 28% 5%;
   }
 
+  form {
+    max-width: 350px;
+  }
   .contact-header {
     font-size: 40px;
+    padding: 5%;
   }
 
   /* For Footer */

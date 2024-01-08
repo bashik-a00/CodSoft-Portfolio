@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Index from "./components/Hero";
+import Hero from "./components/Hero";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import About from "./components/About";
@@ -16,9 +16,10 @@ const App = () => {
           path="/"
           element={
             <>
-              <Index />
+              <Hero />
               <Skills />
               <Projects />
+              <About/>
               <Contact />
             </>
           }
