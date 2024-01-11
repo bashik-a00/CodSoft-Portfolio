@@ -7,13 +7,13 @@ const Footer=()=>{
       <div className="social-icons">
         <ul className="sm-icon">
           <li>
-            <Link to="https://twitter.com/bashiksultan94" className="sm-links"><img className="sm-logo" src="../images/github.svg" alt="" /><p className="sm-title">Github</p></Link>
+            <Link to="https://github.com/bashik-a00" className="sm-links"><img className="sm-logo" src="../images/github.svg" alt="" /><p className="sm-title">Github</p></Link>
           </li>
           <li>
-            <Link to="https://twitter.com/bashiksultan94" className="sm-links"><img className="sm-logo" src="../images/linkedin.svg" alt="" /><p className="sm-title">LinkedIn</p></Link>
+            <Link to="https://www.linkedin.com/in/bashik-a-8875a6271/" className="sm-links"><img className="sm-logo" src="../images/linkedin.svg" alt="" /><p className="sm-title">LinkedIn</p></Link>
           </li>
           <li>
-            <Link to="https://twitter.com/bashiksultan94" className="sm-links"><img className="sm-logo" src="../images/discord.svg" alt="" /><p className="sm-title">Discord</p></Link>
+            <Link to="https://discord.com/users/959372109308633129" className="sm-links"><img className="sm-logo" src="../images/discord.svg" alt="" /><p className="sm-title">Discord</p></Link>
           </li>
           <li>
 
