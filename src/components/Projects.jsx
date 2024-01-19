@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="left card">
           <img
             className="title-img"
-            src="../images/pro1.png"
+            src="../assets/pro1.png"
             alt="project-img"
           />
           <h3 className="card-title">Project1</h3>
@@ -21,7 +21,7 @@ const Projects = () => {
         <div className="right card">
           <img
             className="title-img"
-            src="../images/pro1.png"
+            src="../assets/pro1.png"
             alt="project-img"
           />
           <h3 className="card-title">Project2</h3>
