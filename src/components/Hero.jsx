@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import pdf from "../assets/Resume.pdf";
+import Photo from '../assets/profile.png'
 import "../style.css";
 
 const Hero = () => {
@@ -9,7 +10,7 @@ const Hero = () => {
       <div className="container">
         <div className="">
           <img
-            src="../assets/profile.png"
+            src={Photo}
             alt="profile-img"
             className="my-img"
           />

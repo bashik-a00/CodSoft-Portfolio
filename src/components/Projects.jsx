@@ -1,4 +1,5 @@
 import "../style.css";
+import Proj from "../assets/pro1.png"
 
 const Projects = () => {
   return (
@@ -8,7 +9,7 @@ const Projects = () => {
         <div className="left card">
           <img
             className="title-img"
-            src="../assets/pro1.png"
+            src={Proj}
             alt="project-img"
           />
           <h3 className="card-title">Project1</h3>
@@ -21,7 +22,7 @@ const Projects = () => {
         <div className="right card">
           <img
             className="title-img"
-            src="../assets/pro1.png"
+            src={Proj}
             alt="project-img"
           />
           <h3 className="card-title">Project2</h3>

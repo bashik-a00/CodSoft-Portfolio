@@ -1,4 +1,5 @@
 import "../style.css";
+import Photo from '../assets/my_photo.JPG';
 
 const About=()=>{
   return(
@@ -6,7 +7,7 @@ const About=()=>{
       <h2 className="aboutMe">About Me...</h2>
       <div className="text-photo">
       <div className="photo-area">
-        <img className="about-me-photo" src="../assets/my_photo.JPG" alt="myPicture" />
+        <img className="about-me-photo" src={Photo} alt="myPicture" />
       </div>
       <div className="text-area">
         <p className="aboutMeText">Greetings, I am Bashik A, a dedicated and passionate web developer with a profound addiction to coding. I am committed to transforming this addiction into a driving force for crafting professional and innovative web solutions</p>
