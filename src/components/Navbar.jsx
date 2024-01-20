@@ -13,8 +13,6 @@ const Navbar = () => {
   return (
     <nav id="navbar">
       <div className="navbar-container">
-        
-
         <ul type="none" className="navbar">
           <li className="nav-items">
             <Link className="nav-link" to={"/"}>
