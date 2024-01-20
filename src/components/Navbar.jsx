@@ -4,7 +4,7 @@ import "../style.css";
 
 const Navbar = () => {
   const location = useLocation();
-  if (location.pathname) {
+  if (location.pathname !== '/') {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
