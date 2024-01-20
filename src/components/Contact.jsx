@@ -6,10 +6,14 @@ const Contact = () => {
       <h2 className="contact-header">GET IN TOUCH</h2>
       <form>
         <div className="input-container">
-          <input type="text" className="input-name" placeholder="Name"></input>
+          <input type="email" className="input-email" placeholder="Email" />
         </div>
         <div className="input-container">
-          <input type="email" className="input-email" placeholder="Email" />
+          <input
+            type="text"
+            className="input-subject"
+            placeholder="Subject"
+          ></input>
         </div>
         <div className="input-container">
           <textarea

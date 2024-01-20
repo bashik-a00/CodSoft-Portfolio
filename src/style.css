@@ -53,41 +53,34 @@ body {
 
 /* Hero */
 #hero {
-  padding-top: 10%;
+  padding-top: 7%;
   text-align: center;
-}
-
-.abt-section-btn {
-  background-color: #232323;
-  text-decoration: none;
-  border-radius: 12px;
-  margin: 10px;
-  border: 1px solid #0092ff;
-  font-size: 13px;
-  padding: 15px 10px;
-}
-
-button:hover {
-  background-color: #0092ff;
-  cursor: pointer;
 }
 
 .cv-link,
 .cm-link {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #0092ff;
   text-decoration: none;
-  padding: 40px 20px;
+  padding: 20px 20px;
   border-radius: 12px;
+  border: 1px solid #0092ff;
+  margin: 20px;
+  font-weight: 500;
 }
 
 .cv-link:hover,
-.cm-link:hover {
+.cm-link:hover,
+.submit-btn:hover {
   color: white;
+  background-color: #0092ff;
 }
 
 .download-btn-section {
   display: flex;
   justify-content: center;
+  margin-top: 3%;
 }
 
 h2,
@@ -97,10 +90,17 @@ p {
   color: white;
 }
 
+.discription {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
 h1,
 .discription {
-  padding: 10% auto;
-  margin: 1% auto;
+  padding: 5% auto;
   font-family: "Courier New", Courier, monospace;
   color: #f0f0ea;
   font-size: 2rem;
@@ -144,7 +144,7 @@ h1,
 
 /* Projects */
 #projects {
-  padding: 8% 5% 3% 5%;
+  padding: 5% 5% 3% 5%;
   display: flex;
   flex-direction: column;
 }
@@ -175,8 +175,7 @@ h1,
   text-align: center;
   padding: 20px;
   font-size: 75px;
-  margin: 0;
-  margin-bottom: 2%;
+  margin: 5%;
 }
 
 /* About */
@@ -216,9 +215,10 @@ form {
   margin: 0 auto;
 }
 
-.input-name,
+.input-subject,
 .input-email,
 .form-message {
+  outline: none;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -244,10 +244,7 @@ form {
   padding: 20px;
   color: #0092ff;
   font-size: 15px;
-}
-
-button:hover {
-  color: white;
+  font-weight: bold;
 }
 
 /* Footer */
@@ -306,39 +303,64 @@ button:hover {
 
 @media (max-width: 680px) {
   /* For Navbar */
+  .navbar {
+    max-width: 100%;
+  }
   .nav-items {
     margin: 0;
     text-align: center;
   }
 
   .nav-link {
-    padding-left: 5px;
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 20px;
+    font-weight: 100;
   }
 
-  #hero,
+  #hero {
+    padding-top: 35%;
+  }
   #Skills,
   #projects,
   #contact {
-    padding-top: 35%;
+    padding-top: 30%;
   }
 
   /* For Hero */
+  #hero {
+    margin-top: 0;
+  }
+
   h1 {
     font-size: 1.6rem;
   }
 
+  .download-btn-section {
+    margin-top: 3%;
+  }
+
+  .cv-link,
+  .cm-link {
+    margin: 10px;
+  }
   .discription {
     font-size: 1.3rem;
+    margin-bottom: 10%;
   }
 
   /* For Skills */
   .skills-header {
     font-size: 50px;
     padding: 0 30px;
+    margin: 5%;
   }
 
   .skills-disc {
     font-size: 20px;
+    margin-bottom: 30px;
   }
 
   .skill {

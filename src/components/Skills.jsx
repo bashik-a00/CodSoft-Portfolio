@@ -1,12 +1,12 @@
 import "../style.css";
-import Bootstrap from '../assets/bootstrap.svg';
-import CSS from '../assets/css.svg';
-import JS from '../assets/js.svg';
-import Git from '../assets/git.svg';
-import HTML from '../assets/html.svg';
+import Bootstrap from "../assets/bootstrap.svg";
+import CSS from "../assets/css.svg";
+import JS from "../assets/js.svg";
+import Git from "../assets/git.svg";
+import HTML from "../assets/html.svg";
 import REACT from "../assets/react.svg";
-import Node from '../assets/node-js.svg';
-import Express from '../assets/expressjs1.svg';
+import Node from "../assets/node-js.svg";
+import Express from "../assets/expressjs1.svg";
 
 const Skills = () => {
   return (
@@ -31,11 +31,7 @@ const Skills = () => {
           <p className="js">JavaScript</p>
         </div>
         <div className="tool">
-          <img
-            className="icon"
-            src={Express}
-            alt="express-icon"
-          />
+          <img className="icon" src={Express} alt="express-icon" />
           <p className="express">Express.js</p>
         </div>
         <div className="tool">
@@ -43,11 +39,7 @@ const Skills = () => {
           <p className="css">CSS</p>
         </div>
         <div className="tool">
-          <img
-            className="icon"
-            src={Bootstrap}
-            alt="bootstrap-icon"
-          />
+          <img className="icon" src={Bootstrap} alt="bootstrap-icon" />
           <p className="bootstrap">Bootstrap</p>
         </div>
         <div className="tool">
